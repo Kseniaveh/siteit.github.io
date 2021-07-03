@@ -1,0 +1,28 @@
+@media only screen and (max-width: 767px) {
+.nav-switch {
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    top: 38px;
+    display: block;
+}
+.header-menu__text {
+    display: none;
+    float: none;
+    position: absolute;
+    width: 100%;
+    background: #222;
+    left: 0;
+    top: 100%;
+}
+
+.header-menu__text a {
+    display: block;
+    padding: 15px;
+    margin-right: 0;
+    border-bottom: 1px solid #292929;
+}
+.header-menu__text a:after {
+    left: 35px;
+}}
